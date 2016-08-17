@@ -10,5 +10,7 @@
 %% no wind resistance. The distance is the height from which the object falls,
 %% specified in meters. The function returns a speed in meters per second.
 
+-spec(fall_velocity(number()) -> number()).
+
 fall_velocity(Distance) -> math:sqrt(2 * 9.8 * Distance).
 
